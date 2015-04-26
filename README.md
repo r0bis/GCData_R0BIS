@@ -16,6 +16,7 @@ the dataset directory structure.
 
 Dataset structure for your reference
 --------------------------------------------------------
+<pre>
 ├── activity_labels.txt
 ├── features_info.txt
 ├── features.txt
@@ -48,3 +49,4 @@ Dataset structure for your reference
     ├── subject_train.txt
     ├── X_train.txt
     └── y_train.txt
+</pre>
