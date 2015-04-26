@@ -11,7 +11,7 @@ The dataset you would process is obtained from the following link:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 For the run_analysis.R script to work it is necessary that it should contain 
-a subdirectory named dat where you have unzipped the downloaded dataset, preserving 
+a subdirectory named 'data' where you have unzipped the downloaded dataset, preserving 
 the dataset directory structure.
 
 Dataset structure for your reference
