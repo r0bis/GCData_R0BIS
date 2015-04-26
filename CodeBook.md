@@ -2,10 +2,17 @@ Code book for r0bis course project
 ======================================================
 This code book explains the variables in the tidy data set 'tidydata.txt'.
 
+Please note that data are average values grouped by Subject and Activity.
+So the the numeric values represent mean values for each Subject-Activity pairs.
+
+For each subject there are 66 values. Half of them are averaged mean values 
+denoted by 'Mean', half are averaged standard deviations denoted by 'Std'.
+
+
 Variables
 ------------------------------------------------------
-Subject  - Person who participated in the experiment - identified by integer number 1 to 30
-Activity - type of activity where measurement done
+```Subject  - Person who participated in the experiment - identified by integer number 1 to 30
+Activity - type of activity for which the measurement done
 tBodyAccMeanX - mean value
 tBodyAccMeanY - mean value
 tBodyAccMeanZ - mean value
@@ -72,3 +79,4 @@ fBodyBodyGyroMagMean - mean value
 fBodyBodyGyroMagStd - mean value
 fBodyBodyGyroJerkMagMean - mean value
 fBodyBodyGyroJerkMagStd - mean value
+```
